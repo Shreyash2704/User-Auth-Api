@@ -37,7 +37,7 @@ app.get('/',(req,res)=>{
 
 
 //---database connection---------------------
-const uri = 'mongodb+srv://Shreyash:Shreyash2704@cluster0.tzqwu.mongodb.net/database1?retryWrites=true&w=majority'
+const uri = 'mongodb+srv://username:password@cluster0.tzqwu.mongodb.net/database1?retryWrites=true&w=majority'
 mongoose.connect(uri,{
     useNewUrlParser:true,
     useUnifiedTopology:true,
